@@ -1,0 +1,239 @@
+/*bg-img and nav section*/
+
+body {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-flow: column wrap;
+    align-content: center;
+    margin: 0 auto ;
+}
+.bg-img{
+	background-image: url(../images/mountain.png);
+    background-size: cover;
+    height: 909px; 
+    width: 1280px;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+	display: flex;
+	width: 1154px;
+	height: 99px;
+	justify-content: flex-end;
+}
+
+.nav-ul{
+	display: flex;
+	justify-content: space-between;
+	width: 345px;
+    height: 17px;
+    font-size: 12px;
+    color: #D9F0FF;
+    line-height: 18px;
+    font-family: Poppins;
+    font-weight: medium;
+}
+.cover-text{
+	text-align: center;
+	width: 1017px;
+	height: 144px;
+    font-size: 100px;
+	line-height: 120px;
+	font-weight: Light;
+	font-family: Lato;
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+.logo{
+	width: 118px;
+	height: 37px;
+	font-size: 28px;
+	color: #D9F0FF;
+	font-weight: bold;
+	font-family: Dancing Script;
+}
+
+/*Second Section*/
+
+.second-section{
+	display: flex;
+	width: 1280px;
+	height: 601px;
+}
+.right-block{
+	width: 640px;
+	height: 601px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.big-title{
+	width: 468px;
+	height: 186px;
+	font-family: Lato;
+	font-weight: lighter;
+	font-size: 50px;
+	line-height: 60px;
+	margin: 90px 86px 24px 86px;
+}
+.small-title{
+	width: 457px;
+	height: 128px;
+	font-family: Poppins;
+	font-weight: regular;
+	font-size: 16px;
+	line-height: 25px;
+	margin-right: 97px;
+	margin-left: 86px;
+}
+.click-box{
+	border-radius: 36px;
+	background-color: #325DFF;
+	width: 307px;
+	height: 72px;
+	margin-right: 251px;
+	margin-left: 82px;
+}
+.click-box-text{
+	width: 217px;
+	height: 22px;
+	font-family: lato;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	text-align: center;
+   	padding-top: 28px;
+    padding-left: 70px
+}
+
+.left-block{
+	width: 640px;
+	height: 601px;
+}
+
+/*third section*/
+
+.third-section{
+	width: 1171px;
+	height: 965px;
+	margin: 76.6px 254px 64px 100px ;
+}
+
+.third-section-header{
+	width: 771px;
+	height: 130px;
+	margin-left: 255px;
+    margin-bottom: 64px;
+
+}
+.third-section-title{
+	width: 570px;
+	height: 50px;
+	font-family:lato;
+	font-size: 35px;
+	font-weight: lighter;
+	color: #000000;
+	line-height: 42px;
+	text-align: center;
+	margin-bottom: 9px;
+}
+.third-section-paragraph{
+	width: 771px;
+	height: 71px;
+	font-family: poppins;
+	font-size: 16px;
+	line-height: 25px;
+	color: #000000;
+	text-align: center;
+}
+.six-block-main{
+	width: 1171px;
+	height: 773px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icon{
+	border: 50%;
+	color: #325DFF;
+	width: 88px;
+	height: 88px;
+}
+.icon-img{
+	width: 70px;
+	height: 40px;
+	background-color: #325DFF;
+    border-radius: 50%;
+}
+.icon-title{
+	width: 233px;
+	height: 33px;
+	font-size: 18px;
+	font-family: lato;
+	line-height: 22px;
+	opacity: 80%;
+	color: #000000;
+}
+.icon-paragraph{
+	width: 251px;
+	height: 106px;
+	font-size: 16px;
+	font-family: poppins;
+	line-height: 25px;
+	opacity: 65%;
+	color: #000000;
+}
+.one-block{
+	width: 371px;
+	height: 374px;
+	margin-top: 15px
+}
+.two-block{
+	width: 369px;
+	height: 374px;
+	margin-top: 15px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+}
+.three-block{
+	width: 371px;
+	height: 374px;
+	margin-top: 25px;
+    margin-right: 55px
+}
+.second-part-six-block{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -250px;
+}
+.four-block{
+	width: 371px;
+	height: 374px;;
+	margin-top: -100px
+}
+.five-block{
+	width: 371px;
+	height: 374px;
+	margin-top: -60px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+
+}
+.six-block{
+	width: 371px;
+	height: 374px;
+	margin-top: -50px;
+	margin-right: 55px;
+	margin-bottom: 25px;
+}
